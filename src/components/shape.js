@@ -3,8 +3,8 @@ import React from "react";
 class Shape extends React.Component {
     constructor(props) {
         super(props);
-        const color = "red";
     }
+    color = "red";
     drawShape() {
 
     }
