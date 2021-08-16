@@ -3,12 +3,12 @@ import React from "react";
 class Shape extends React.Component {
     constructor(props) {
         super(props);
-        props.color = "red";
+        this.state = { color: "red" };
     }
     drawShape() {
 
     }
-    calculateArea(){
+    calculateArea() {
 
     }
 }
